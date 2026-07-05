@@ -1,4 +1,4 @@
-// ===== Cart =====
+
 const CART_KEY = "styleZoneCart";
 const WISHLIST_KEY = "styleZoneWishlist";
 
@@ -129,7 +129,7 @@ function applyFilters() {
   });
 }
 
-// ===== Newsletter =====
+
 function handleNewsletterSubmit(event) {
   event.preventDefault();
   const emailInput = document.getElementById("newsletter-email");
@@ -138,7 +138,7 @@ function handleNewsletterSubmit(event) {
   emailInput.value = "";
 }
 
-// ===== Init =====
+
 document.addEventListener("DOMContentLoaded", () => {
   renderCart();
   initWishlistButtons();
