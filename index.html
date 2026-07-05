@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="STYLE ZONE - Fashion store for Men, Women and Kids. Shop new arrivals, promotions and everyday essentials.">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <title>STYLE ZONE</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>STYLE ZONE</h1>
+    <p>Fashion for Everyone</p>
+  </header>
+
+  <nav>
+    <div class="nav-links">
+      <a href="#new">New Arrivals</a>
+      <a href="#promo">Promotions</a>
+      <a href="#men">Men's</a>
+      <a href="#women">Women's</a>
+      <a href="#kids">Kids</a>
+      <a href="#reviews">Reviews</a>
+    </div>
+    <div class="nav-tools">
+      <input type="search" id="search-input" placeholder="Search products...">
+      <label class="stock-filter">
+        <input type="checkbox" id="in-stock-filter"> In stock only
+      </label>
+      <button id="cart-toggle" aria-label="Open cart">🛒 <span id="cart-count">0</span></button>
+    </div>
+  </nav>
+
+  <section id="new">
+    <h2>New Arrivals</h2>
+    <div class="products-grid">
+      <div class="product" data-name="Denim Jacket" data-instock="true">
+        <button class="wishlist-btn" data-name="Denim Jacket" aria-label="Add to wishlist">♡</button>
+        <img src="assets/images/new-arrivals/unisexdenimjacket.jpg" alt="Unisex denim jacket" loading="lazy">
+        <p><strong>Denim Jacket</strong></p>
+        <p>Trendy unisex jacket for any occasion.</p>
+        <p class="price">$39.99</p>
+        <p>Available: ✅</p>
+        <button class="add-to-cart-btn" data-name="Denim Jacket" data-price="39.99" data-image="assets/images/new-arrivals/unisexdenimjacket.jpg">Add to Cart</button>
+      </div>
+      <div class="product" data-name="Women's Traveler Pant" data-instock="true">
+        <button class="wishlist-btn" data-name="Women's Traveler Pant" aria-label="Add to wishlist">♡</button>
+        <img src="assets/images/new-arrivals/womentravelpant.jpg" alt="Women's traveler pants" loading="lazy">
+        <p><strong>Women's Traveler Pant</strong></p>
+        <p>Date night versatile pant.</p>
+        <p class="price">$18.99</p>
+        <p>Available: ✅</p>
+        <button class="add-to-cart-btn" data-name="Women's Traveler Pant" data-price="18.99" data-image="assets/images/new-arrivals/womentravelpant.jpg">Add to Cart</button>
+      </div>
+      <div class="product" data-name="Men's Zip Up Hoodie" data-instock="true">
+        <button class="wishlist-btn" data-name="Men's Zip Up Hoodie" aria-label="Add to wishlist">♡</button>
+        <img src="assets/images/new-arrivals/menhoodie.jpg" alt="Men's zip-up hoodie" loading="lazy">
+        <p><strong>Men's Zip Up Hoodie</strong></p>
+        <p>Stay cozy, stay stylish! The newest men's zip-up hoodie collection is now out!</p>
+        <p class="price">$29.99</p>
+        <p>Available: ✅</p>
+        <button class="add-to-cart-btn" data-name="Men's Zip Up Hoodie" data-price="29.99" data-image="assets/images/new-arrivals/menhoodie.jpg">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="promo">
+    <h2>Promotions</h2>
+    <div class="products-grid">
+      <div class="product" data-name="Women's Summer T-Shirt" data-instock="true">
+        <button class="wishlist-btn" data-name="Women's Summer T-Shirt" aria-label="Add to wishlist">♡</button>
+        <img src="assets/images/promotions/summertshirtwomen.jpg" alt="Women's summer t-shirt" loading="lazy">
+        <p><strong>Women's Summer T-Shirt (50% Off!)</strong></p>
+        <p>Bright colors and breathable cotton.</p>
+        <p class="price">$9.99 <del>$19.99</del></p>
+        <p>Available: ✅</p>
+        <button class="add-to-cart-btn" data-name="Women's Summer T-Shirt" data-price="9.99" data-image="assets/images/promotions/summertshirtwomen.jpg">Add to Cart</button>
+      </div>
+      <div class="product" data-name="Men's Summer Shirt" data-instock="true">
+        <button class="wishlist-btn" data-name="Men's Summer Shirt" aria-label="Add to wishlist">♡</button>
+        <img src="assets/images/promotions/summershirtmen.png" alt="Men's summer shirt" loading="lazy">
+        <p><strong>Men's Summer Shirt (50% Off!)</strong></p>
+        <p>Stylish and breathable cotton.</p>
+        <p class="price">$15.99 <del>$29.99</del></p>
+        <p>Available: ✅</p>
+        <button class="add-to-cart-btn" data-name="Men's Summer Shirt" data-price="15.99" data-image="assets/images/promotions/summershirtmen.png">Add to Cart</button>
+      </div>
+      <div class="product" data-name="Women's Wide Leg Jeans" data-instock="true">
+        <button class="wishlist-btn" data-name="Women's Wide Leg Jeans" aria-label="Add to wishlist">♡</button>
+        <img src="assets/images/promotions/womenwidelegjeans.PNG" alt="Women's wide leg jeans" loading="lazy">
+        <p><strong>Women's Wide Leg Jeans (50% Off!)</strong></p>
+        <p>Trendy outfit, wear with confidence.</p>
+        <p class="price">$20.99 <del>$39.99</del></p>
+        <p>Available: ✅</p>
+        <button class="add-to-cart-btn" data-name="Women's Wide Leg Jeans" data-price="20.99" data-image="assets/images/promotions/womenwidelegjeans.PNG">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="men">
+    <h2>Men's Clothing</h2>
+    <div class="products-grid">
+      <div class="product" data-name="Casual T-Shirt" data-instock="true">
+        <button class="wishlist-btn" data-name="Casual T-Shirt" aria-label="Add to wishlist">♡</button>
+        <img src="assets/images/men/casualtshirtmen.jpg" alt="Men's casual t-shirt" loading="lazy">
+        <p><strong>Casual T-Shirt</strong></p>
+        <p>Comfortable cotton tee in multiple colors.</p>
+        <p class="price">$14.99</p>
+        <p>Available: ✅</p>
+        <button class="add-to-cart-btn" data-name="Casual T-Shirt" data-price="14.99" data-image="assets/images/men/casualtshirtmen.jpg">Add to Cart</button>
+      </div>
+      <div class="product" data-name="Slim Fit Jeans" data-instock="false">
+        <button class="wishlist-btn" data-name="Slim Fit Jeans" aria-label="Add to wishlist">♡</button>
+        <img src="assets/images/men/slimfitjeans3.PNG" alt="Men's slim fit jeans" loading="lazy">
+        <p><strong>Slim Fit Jeans</strong></p>
+        <p>Dark wash jeans with a modern look.</p>
+        <p class="price">$34.99</p>
+        <p class="out-of-stock">Out of Stock ❌</p>
+        <button class="add-to-cart-btn" disabled>Out of Stock</button>
+      </div>
+      <div class="product" data-name="Formal Wear" data-instock="true">
+        <button class="wishlist-btn" data-name="Formal Wear" aria-label="Add to wishlist">♡</button>
+        <img src="assets/images/men/formalmen.PNG" alt="Men's formal shirt and trousers" loading="lazy">
+        <p><strong>Formal Wear</strong></p>
+        <p>Sharp, vibrant look formal shirts and trousers.</p>
+        <p class="price">$58.99</p>
+        <p>Available: ✅</p>
+        <button class="add-to-cart-btn" data-name="Formal Wear" data-price="58.99" data-image="assets/images/men/formalmen.PNG">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="women">
+    <h2>Women's Clothing</h2>
+    <div class="products-grid">
+      <div class="product" data-name="Floral Dress" data-instock="true">
+        <button class="wishlist-btn" data-name="Floral Dress" aria-label="Add to wishlist">♡</button>
+        <img src="assets/images/women/floralwomen.jpg" alt="Women's floral dress" loading="lazy">
+        <p><strong>Floral Dress</strong></p>
+        <p>Perfect for casual and formal wear.</p>
+        <p class="price">$29.99</p>
+        <p>Available: ✅</p>
+        <button class="add-to-cart-btn" data-name="Floral Dress" data-price="29.99" data-image="assets/images/women/floralwomen.jpg">Add to Cart</button>
+      </div>
+      <div class="product" data-name="Bodycon Dress" data-instock="true">
+        <button class="wishlist-btn" data-name="Bodycon Dress" aria-label="Add to wishlist">♡</button>
+        <img src="assets/images/women/bodycon-dress-women.jpg" alt="Women's bodycon dress" loading="lazy">
+        <p><strong>Bodycon Dress</strong></p>
+        <p>Perfect for flattering.</p>
+        <p class="price">$48.99</p>
+        <p>Available: ✅</p>
+        <button class="add-to-cart-btn" data-name="Bodycon Dress" data-price="48.99" data-image="assets/images/women/bodycon-dress-women.jpg">Add to Cart</button>
+      </div>
+      <div class="product" data-name="Party Dress" data-instock="false">
+        <button class="wishlist-btn" data-name="Party Dress" aria-label="Add to wishlist">♡</button>
+        <img src="assets/images/women/partydresswomen.jpg" alt="Women's party dress" loading="lazy">
+        <p><strong>Party Dress</strong></p>
+        <p>For parties.</p>
+        <p class="price">$72.99</p>
+        <p class="out-of-stock">Out of Stock ❌</p>
+        <button class="add-to-cart-btn" disabled>Out of Stock</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="kids">
+    <h2>Kids' Clothing</h2>
+    <div class="products-grid">
+      <div class="product" data-name="Kids Hoodie" data-instock="true">
+        <button class="wishlist-btn" data-name="Kids Hoodie" aria-label="Add to wishlist">♡</button>
+        <img src="assets/images/kids/kidhoodie.webp" alt="Kids hoodie" loading="lazy">
+        <p><strong>Kids Hoodie</strong></p>
+        <p>Warm and cozy for chilly days.</p>
+        <p class="price">$19.99</p>
+        <p>Available: ✅</p>
+        <button class="add-to-cart-btn" data-name="Kids Hoodie" data-price="19.99" data-image="assets/images/kids/kidhoodie.webp">Add to Cart</button>
+      </div>
+      <div class="product" data-name="Baby Dress" data-instock="true">
+        <button class="wishlist-btn" data-name="Baby Dress" aria-label="Add to wishlist">♡</button>
+        <img src="assets/images/kids/babydress.jpg" alt="Baby dress" loading="lazy">
+        <p><strong>Baby Dress</strong></p>
+        <p>More beautiful in babies.</p>
+        <p class="price">$12.99</p>
+        <p>Available: ✅</p>
+        <button class="add-to-cart-btn" data-name="Baby Dress" data-price="12.99" data-image="assets/images/kids/babydress.jpg">Add to Cart</button>
+      </div>
+      <div class="product" data-name="Kids Denim" data-instock="true">
+        <button class="wishlist-btn" data-name="Kids Denim" aria-label="Add to wishlist">♡</button>
+        <img src="assets/images/kids/kidsdenim.jpg" alt="Kids denim outfit" loading="lazy">
+        <p><strong>Kids Denim</strong></p>
+        <p>Unique look in kids.</p>
+        <p class="price">$30.99</p>
+        <p>Available: ✅</p>
+        <button class="add-to-cart-btn" data-name="Kids Denim" data-price="30.99" data-image="assets/images/kids/kidsdenim.jpg">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial">
+        <p class="stars">★★★★★</p>
+        <p>"Great quality clothes and fast shipping. The denim jacket fits perfectly!"</p>
+        <p><strong>- Amara K.</strong></p>
+      </div>
+      <div class="testimonial">
+        <p class="stars">★★★★★</p>
+        <p>"My kids love their new hoodies. Will definitely shop here again."</p>
+        <p><strong>- Ravi S.</strong></p>
+      </div>
+      <div class="testimonial">
+        <p class="stars">★★★★☆</p>
+        <p>"Loved the promotions section, got a great deal on the summer shirt."</p>
+        <p><strong>- Priya M.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="newsletter">
+    <h2>Join Our Newsletter</h2>
+    <p>Get updates on new arrivals and exclusive promotions.</p>
+    <form id="newsletter-form">
+      <input type="email" id="newsletter-email" placeholder="Enter your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+    <p id="newsletter-message"></p>
+  </section>
+
+  <div id="cart-overlay"></div>
+  <div id="cart-drawer">
+    <button id="close-cart" aria-label="Close cart">×</button>
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <p id="cart-total"></p>
+    <button id="checkout-btn">Checkout</button>
+  </div>
+
+  <footer>
+    <div class="social-links">
+      <a href="#" aria-label="Facebook">Facebook</a>
+      <a href="#" aria-label="Instagram">Instagram</a>
+      <a href="#" aria-label="Twitter">Twitter</a>
+    </div>
+    &copy; 2025 STYLE ZONE. All Rights Reserved.
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
