@@ -1,4 +1,4 @@
-/* ===== Base ===== */
+
 * {
   box-sizing: border-box;
 }
@@ -28,7 +28,7 @@ a {
   color: inherit;
 }
 
-/* ===== Header ===== */
+
 header {
   background-image: url(../assets/images/backgrounds/website-header-background.jpg);
   background-size: cover;
@@ -43,7 +43,6 @@ header p {
   margin: 5px 0 0;
 }
 
-/* ===== Nav bar ===== */
 nav {
   background: #000;
   display: flex;
@@ -123,7 +122,6 @@ nav a:hover {
   justify-content: center;
 }
 
-/* ===== Sections ===== */
 section {
   padding: 20px;
   background: rgba(0, 0, 0, 0.55);
@@ -138,7 +136,6 @@ section {
   gap: 20px;
 }
 
-/* ===== Product Card ===== */
 .product {
   background: rgb(255, 255, 255);
   color: #222;
@@ -217,7 +214,7 @@ section {
   cursor: not-allowed;
 }
 
-/* ===== Testimonials ===== */
+
 .testimonial-grid {
   display: flex;
   flex-wrap: wrap;
@@ -237,7 +234,6 @@ section {
   color: #f5a623;
 }
 
-/* ===== Newsletter ===== */
 #newsletter form {
   display: flex;
   flex-wrap: wrap;
@@ -266,7 +262,6 @@ section {
   color: #90ee90;
 }
 
-/* ===== Cart Drawer ===== */
 #cart-overlay {
   display: none;
   position: fixed;
@@ -378,7 +373,7 @@ section {
   color: #666;
 }
 
-/* ===== Footer ===== */
+
 footer {
   text-align: center;
   padding: 20px;
@@ -402,7 +397,7 @@ footer {
   color: #ff0000;
 }
 
-/* ===== Responsive ===== */
+
 @media (max-width: 600px) {
   h1 {
     font-size: 36px;
